@@ -31,7 +31,7 @@ body {
     display:flex;
     justify-content:center;
     gap:30px;
-    margin:0;
+    margin:0 auto;
 flex-wrap:wrap;
 }
 .card {
@@ -46,6 +46,7 @@ flex-wrap:wrap;
     background:cyan;
     color:white;
     border:1px solid;
+    flex:wrap
     }
 .card-header h3 {
     font-size:20px;
